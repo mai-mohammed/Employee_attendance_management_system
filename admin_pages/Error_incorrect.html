@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="admin_log_style.css"/>
+    <style>
+        
+.error{
+    color : rgb(255, 0, 102)  ;
+    font-weight: bold;
+    position: absolute ;
+    left : 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    white-space :nowrap;
+    margin-top: 5px;
+  }
+
+  a{
+  
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: #52ab98;
+  padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space :nowrap;
+  position: absolute ;
+  left : 50%;
+  top : 50%;
+  transform: translate(-50% , -50%);
+  }
+
+  a:hover{
+    background-color: #36786a;
+  }
+    </style>
+</head>
+<body>
+ 
+<div class="main_div">
+        <p class="error">Error In Username Or Password</p>
+        <a class="try_again" href="admin_log.php">Try Again</a>
+</div>
+
+</body>
+</html>

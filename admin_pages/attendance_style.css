@@ -1,0 +1,141 @@
+.main_div{
+  background-color: #c8d8e4;
+  border-radius: 10px;
+  min-height: 650px;
+  width: 845px;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-48% , -45%);
+}
+
+.a_container{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-338% , -730%);
+    background-color: #c8d8e4;
+    border-radius: 15px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: px solid #333;
+
+}
+
+.a_container a{  
+
+    font-weight : bold ;
+    color :black ;
+    padding: 5px 10px;
+    background-color :  #c8d8e4  ;
+    display: inline-block;
+    text-decoration: none;
+    /* display: flex;*/
+    align-items: center; 
+    justify-content: center;
+
+}
+a:first-child{
+ border-right: 2px solid #81c3b4;
+}
+
+.caption{
+    font-weight: bold;
+    position: absolute ;
+    left : 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    white-space :nowrap;
+  }
+  form{
+      margin-top : 60px;
+      position: absolute ;
+      left : 50%;
+      transform: translateX(-50%);
+      white-space :nowrap;
+  }
+  form label{
+      margin : 2px ;
+  }
+  input[type=text], .radio ,input[type=date], .select ,input[type=time],textarea{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+     
+      width: 100px;
+      background-color: #52ab98;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #438e7e;
+    }
+
+    .radio label {
+        display: inline;
+        margin-right: 60px;
+    }
+
+    
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: absolute;
+    left :50% ;
+    top: 50%;
+    transform: translate(-50%,-44%);
+
+  }
+  
+  td, th {
+    border: 1px solid #f2f2f2 ;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+ 
+  tr:nth-child(even) {
+    background-color: #81c3b4 ;
+  }
+  caption {
+      font-weight: bold;
+  }
+
+    .search ,.month ,.emplo ,.select_em ,.select_form input[type=date] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .search_form{
+    position: absolute;
+    left: 23%;
+    top: 0%;
+    transform: translate(-16% ,-37%);
+  }
+
+  .search_form span {
+    visibility: hidden;
+
+  }
+

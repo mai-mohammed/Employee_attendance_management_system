@@ -1,0 +1,59 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #4a4a4a;
+
+}
+
+.text {
+  color: #4a4a4a;
+  font-weight: bold;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  white-space: nowrap;
+}
+
+.main_div {
+  height: 550px;
+  width: 800px;
+  background: #c8d8e4;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.emp_link,
+.adm_link {
+  font-size: 30px;
+  font-weight: bold;
+  width: 250px;
+  height: 250px;
+  color: #4a4a4a;
+  background-color: #52ab98;
+  border-bottom: 8px #52ab98 solid;
+  padding: 10px 15px;
+  /* display: inline-block; */
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emp_link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(18%, -50%);
+}
+
+.adm_link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-113%,-50%);
+}
